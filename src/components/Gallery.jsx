@@ -1,12 +1,13 @@
 export default function Gallery() {
   const images = [
+    "/smithwed.jpg",
     "/ay.wed5.JPG",
     "/ay.wed4.JPG",
     "/ay.wed.jpeg",
-    "/smithwed.jpg",
+    "/ay.wed2.jpeg",
     "/proposal.JPG",
     // "/ay.wed3.jpeg",
-    "/ay.wed2.jpeg",
+    
   ];
 
   return (
