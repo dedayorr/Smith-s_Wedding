@@ -206,15 +206,20 @@ nav {
 
 .hero-glow {
   position: absolute;
-  inset: 0; /* fills the hero section */
+  inset: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.55)),
     url("/public/smithwed2.jpg");
   background-size: cover;
   background-position: 20% center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* height: 700px; */
   z-index: -1;
+}
+
+/* Only use fixed on desktop */
+@media (min-width: 768px) {
+  .hero-glow {
+    background-attachment: fixed;
+  }
 }
 @keyframes glowPulse {
   0%,
