@@ -4,7 +4,7 @@ export default function Gallery() {
     "/ay.wed.jpeg",
     "/smithwed.jpg",
     "/ay.wed2.jpeg",
-    "/smithwed2.jpg",
+    "/proposal.JPG",
     "/ay.wed3.jpeg",
     "/ay.wed5.JPG",
     //   "/gallery/6.jpg",
