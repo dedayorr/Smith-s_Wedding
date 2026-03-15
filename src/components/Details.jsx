@@ -46,12 +46,12 @@ export default function Details() {
         <div className="details-grid">
           <DetailCard icon="🗓️" label="Date &amp; Time"
             value="Sunday<br/>5th April, 2025"
-            sub="Ceremony begins at 3:00 PM (WAT)<br/>Reception to follow" />
+            sub="Ceremony begins at 2:00 PM (WAT)<br/>Reception to follow" />
           <DetailCard icon="📍" label="Venue"
             value="Bay Water Park"
             sub="8B Wole Olateju Crescent<br/>Lekki Phase 1, Lagos, Nigeria" />
           <DetailCard icon="👗" label="Dress Code"
-            value="A Touch of Blue"
+            value="Garden formal with a Touch of Blue"
             sub="Incorporate a hint of blue into your outfit — from a pocket square to a full gown, all shades welcome." />
           <DetailCard icon="🎫" label="Entry"
             value="QR Code Required"
