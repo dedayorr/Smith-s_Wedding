@@ -122,27 +122,27 @@ export default function Hero() {
         Adedayo
       </h1>
       <p className="hero-date text-center">
-        Sunday · 5th April 2025 · Lagos, Nigeria
+        Sunday · 5th April 2026 · Lagos, Nigeria
       </p>
       <p className="hero-hashtag">#LoveFoundTwoAs</p>
 
       <div className="countdown">
-  {[
-    ["days", time.days],
-    ["hours", time.hours],
-    ["mins", time.mins],
-    ["secs", time.secs],
-  ].map(([label, val], i) => (
-    <div key={label} className="countdown-item">
-      <div className="countdown-unit">
-        <span className="countdown-num">{val}</span>
-        <span className="countdown-label">{label}</span>
-      </div>
+        {[
+          ["days", time.days],
+          ["hours", time.hours],
+          ["mins", time.mins],
+          ["secs", time.secs],
+        ].map(([label, val], i) => (
+          <div key={label} className="countdown-item">
+            <div className="countdown-unit">
+              <span className="countdown-num">{val}</span>
+              <span className="countdown-label">{label}</span>
+            </div>
 
-      {i < 3 && <div className="countdown-sep">·</div>}
-    </div>
-  ))}
-</div>
+            {i < 3 && <div className="countdown-sep">·</div>}
+          </div>
+        ))}
+      </div>
 
       <div className="hero-scroll">
         <span>Scroll</span>
