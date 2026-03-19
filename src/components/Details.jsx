@@ -45,7 +45,7 @@ export default function Details() {
 
         <div className="details-grid">
           <DetailCard icon="🗓️" label="Date &amp; Time"
-            value="Sunday<br/>5th April, 2025"
+            value="Sunday<br/>5th April, 2026"
             sub="Ceremony begins at 2:00 PM (WAT)<br/>Reception to follow" />
           <DetailCard icon="📍" label="Venue"
             value="Bay Water Park"
